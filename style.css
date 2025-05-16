@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contador {
+  font-size: 48px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.botoes button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botoes button:nth-child(1) {
+  background-color: green;
+  color: white;
+}
+
+.botoes button:nth-child(2) {
+  background-color: red;
+  color: white;
+}
+
+.botoes button:nth-child(3) {
+  background-color: gray;
+  color: white;
+}
